@@ -25,6 +25,19 @@ const SUB_MODULE_ROUTES: Record<string, string> = {
   "my-requests": "/dashboard/workflow/requests",
   "approval-inbox": "/dashboard/workflow/approvals",
   "self-service": "/dashboard/workflow/self-service",
+  "fin-dashboard": "/dashboard/finance",
+  "fee-plans": "/dashboard/finance/setups/fee-plans",
+  "taxation-kyc": "/dashboard/finance/setups/taxation-and-kyc",
+  "chart-of-accounts": "/dashboard/finance/setups/chart-of-accounts",
+  "universal-pos": "/dashboard/finance/pos",
+  "refunds": "/dashboard/finance/refunds",
+  "defaulters": "/dashboard/finance/defaulters",
+  "vendor-payments": "/dashboard/finance/payables",
+  "daily-economics": "/dashboard/finance/economics",
+  "payroll-sync": "/dashboard/finance/payroll-sync",
+  "journal-entries": "/dashboard/finance/gl/journal-entries",
+  "audit-logs": "/dashboard/finance/gl/audit-logs",
+  "reports-export": "/dashboard/finance/reports",
 }
 
 const SETUP_LINKS = [
